@@ -26,6 +26,11 @@ class Application(tk.Frame):
             campo = tk.Label(text=vetor.pop())
             campo.pack()
 
+
+
+
+
+
 root = tk.Tk()
 root.attributes("-topmost", True)
 app = Application(master=root)

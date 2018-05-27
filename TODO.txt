@@ -1,0 +1,4 @@
+#TODO
+
+- Contador para saber quantas vezes podemos usar o app antes do sinesp cancelar
+- Talves, ip e proxy randomicos

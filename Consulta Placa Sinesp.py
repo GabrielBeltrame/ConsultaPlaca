@@ -17,7 +17,7 @@ class Application(Frame):
         self.btn = Button(master, command=self.get_placa, text='->')
         self.btn.grid()
 
-        self.lstbox = Listbox(master, width=30, height=5)
+        self.lstbox = Listbox(master, width=30, height= 5)
         self.lstbox.grid()
 
         self.qtd_pesquisas_label = Label(master, text=qtd_pesquisa)

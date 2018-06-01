@@ -1,3 +1,6 @@
+
+from sinesp_client import SinespClient
+
 class Search_plate():
 
     def procura_placa(placa_sinesp):
@@ -7,22 +10,5 @@ class Search_plate():
         for result in results.values():
             vetor.append(result)
 
-        # limpar listbox
-        Application.apaga_lstbox()
-        Application.escreve_lstbox(vetor)
-
-        # Criar Contador
-        # self.qtd_pesquisas_label(qtd+1)
-        # Application.lstbox.grid()
-
-    def contador(self):
-        print("É chamada quando é feito uma pesquisa")
-
-        def __init__(self):
-            qtd_pesquisa = 0
-
-        def set_qtd(self):
-            qtd_pesquisa + +1
-
-        def get_qtd(self):
-            return qtd_pesquisa
+    #TODO Ainda tenho que repensar se é realmente necessário
+    # uma classe apenas para fazer pesquisa

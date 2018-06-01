@@ -13,6 +13,7 @@ class Carro():
 
 
     # <editor-fold desc="Gets">
+
     @property
     def placa(self):
         return self.__placa
@@ -46,3 +47,12 @@ class Carro():
         return self.__retorno_sinesp
     # </editor-fold>
 
+    # <editor-fold desc="Setters">
+
+    #TODO implementar todos os setters necessários, se necessário
+    @placa.setter
+    def palca(self, placa):
+        self.__placa = placa
+
+
+    # </editor-fold>
